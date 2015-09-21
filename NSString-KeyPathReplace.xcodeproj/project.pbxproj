@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		528E54FA1BAF407500F21B59 /* NSString_KeyPathReplaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E54F91BAF407500F21B59 /* NSString_KeyPathReplaceTests.m */; };
 		528E55141BAF41DE00F21B59 /* NSString+KeyPathReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E55131BAF41DE00F21B59 /* NSString+KeyPathReplace.m */; settings = {ASSET_TAGS = (); }; };
+		528E55161BB0856100F21B59 /* LargeTestDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 528E55151BB0856100F21B59 /* LargeTestDictionary.json */; settings = {ASSET_TAGS = (); }; };
 		9A774F22F6791E74A23E051A /* libPods-NSString-KeyPathReplaceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF2FEFE578B3CB9EE632439 /* libPods-NSString-KeyPathReplaceTests.a */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		528E54FB1BAF407500F21B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528E55121BAF41DE00F21B59 /* NSString+KeyPathReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KeyPathReplace.h"; sourceTree = "<group>"; };
 		528E55131BAF41DE00F21B59 /* NSString+KeyPathReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KeyPathReplace.m"; sourceTree = "<group>"; };
+		528E55151BB0856100F21B59 /* LargeTestDictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LargeTestDictionary.json; sourceTree = "<group>"; };
 		5DF2FEFE578B3CB9EE632439 /* libPods-NSString-KeyPathReplaceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSString-KeyPathReplaceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				528E54F91BAF407500F21B59 /* NSString_KeyPathReplaceTests.m */,
+				528E55151BB0856100F21B59 /* LargeTestDictionary.json */,
 				528E54FB1BAF407500F21B59 /* Info.plist */,
 			);
 			path = "NSString-KeyPathReplaceTests";
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528E55161BB0856100F21B59 /* LargeTestDictionary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
