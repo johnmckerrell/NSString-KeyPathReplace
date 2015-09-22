@@ -1,4 +1,4 @@
-# NSStrine+KeyPathReplace
+# NSString+KeyPathReplace
 
 A simple NSString cateogory that gives you the ability to interpolate values
 into a string taken from a given NSDictionary. It also allows you to specify
