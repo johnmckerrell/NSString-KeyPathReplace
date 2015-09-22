@@ -26,8 +26,8 @@
         if (captureCount>3 && [capturedStrings[3] length]) {
             defaultValue = capturedStrings[3];
         }
-        if (![defaultValue length] && defaultValues && [defaultValues[keyPath] length]) {
-            defaultValue = defaultValues[keyPath];
+        if (![defaultValue length] && defaultValues && [[defaultValues valueForKeyPath:keyPath] length]) {
+            defaultValue = [defaultValues valueForKeyPath:keyPath];
         }
         NSString *val = @"";
         if ([capturedStrings[0] characterAtIndex:0] == '\\') {
@@ -39,7 +39,7 @@
             @catch (NSException *exception) {
                 val = nil;
             }
-            if (val == (id)[NSNull null]) {
+            if (!val || val == (id)[NSNull null]) {
                 if (defaultValue) {
                     val = defaultValue;
                 } else {
